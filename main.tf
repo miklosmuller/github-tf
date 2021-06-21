@@ -1,5 +1,5 @@
 provider "github" {
-  token        = "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"
+  token        = var.token
   owner = "miklosmuller"
 }
 
